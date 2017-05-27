@@ -32,7 +32,10 @@ public class BasicArraylists0 {
         
        
         
-            System.out.println(arrList);
+            for(int i=0; i<10; i++){
+            
+                System.out.println("Slot " + i + " contains " + arrList.get(i) );
+            }
         
         
     }
